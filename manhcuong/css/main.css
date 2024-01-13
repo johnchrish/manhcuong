@@ -1,0 +1,12 @@
+@import url("mainLeft.css");
+@import url("mainRight.css");
+
+.mainLeft{
+    width: 250px;
+    margin-left: 126px;
+    margin-right: 21px;
+}
+.mainRight{
+    width: 828px;
+    margin-right: 125px;
+}

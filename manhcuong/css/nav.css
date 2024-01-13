@@ -1,0 +1,38 @@
+nav{
+    background-color: black;
+}
+.nav__menu{
+    width: 75%;
+}
+.nav__menu ul{ 
+    display: flex; 
+    padding: 0;
+    margin: 0;
+}
+.nav__menu ul li{
+    list-style: none;
+}
+.nav__menu ul li a{
+    font-size: 13px;
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    padding: 17px;
+    text-decoration: none;
+}
+.nav__menu ul li a:hover{
+    background-color: #696969;
+}
+.nav__menu ul li.active a{
+    background-color: #696969;
+}
+.nav__search{
+    padding: 14px;
+    width: 25%;
+}
+input{
+    text-transform: capitalize;
+}
+.row{
+    display: flex;
+}
